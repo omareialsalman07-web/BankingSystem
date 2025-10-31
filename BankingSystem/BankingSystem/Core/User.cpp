@@ -5,7 +5,7 @@
 
 #include <MyLib/My_String.h>
 
-const char* USERS_FILE_NAME = "Users.txt";
+const char* USERS_FILE_NAME = "USERS.txt";
 
 using namespace Core;
 
@@ -173,4 +173,5 @@ bool Core::IsUserHasPermission(enUserPermissions actionPermission, const stUser&
 		return true;
 
 	return false;
+
 }
